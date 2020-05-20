@@ -15,7 +15,8 @@
   "files": [
     "bin",
     "lib",
-    "src"
+    "src",
+    ".babelrc"
   ],
   "repository": {
     "type": "git",
