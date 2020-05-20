@@ -8,7 +8,6 @@
     "github-release": "./bin/github-release"
   },
   "scripts": {
-    // "preinstall": "npm run build",
     "build": "babel --out-dir ./lib ./src",
     "test": "tap test/*.js --no-timeout --node-arg=--require --node-arg=babel-register --node-arg=--require --node-arg=babel-polyfill",
     "test:list": "npm run build && node lib/index.js -a --owner cheton --repo github-release-cli list"
